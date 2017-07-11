@@ -5,6 +5,6 @@ namespace Net.Chdk.Meta.Providers.CameraList
 {
     public interface ICameraListProvider
     {
-        IDictionary<string, ListPlatformData> GetCameraList(string path);
+        IDictionary<string, ListPlatformData> GetCameraList(string path, string productName);
     }
 }
