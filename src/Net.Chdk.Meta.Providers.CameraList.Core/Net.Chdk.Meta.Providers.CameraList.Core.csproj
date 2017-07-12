@@ -51,6 +51,12 @@
       <HintPath>..\..\..\packages\Net.Chdk.Meta.Model.CameraList.0.1.0-alpha\lib\netstandard1.0\Net.Chdk.Meta.Model.CameraList.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Providers.Core\src\Net.Chdk.Meta.Providers.Core\Net.Chdk.Meta.Providers.Core.csproj">
+      <Project>{a336d62c-4caf-4b19-9602-8ce0e51b4eb4}</Project>
+      <Name>Net.Chdk.Meta.Providers.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
